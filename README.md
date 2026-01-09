@@ -7,7 +7,7 @@ Proyecto en el cuál pondremos en práctica los conocimientos sobre Markdown, cr
   * Github pages
   * Git
 
-📖 Documentación completa en [docs/index.md](docs/index.md)
+📖 Documentación completa en [Índice](https://daanigp.github.io/proyecto-intermodular-doc/)
 
 * ### Autores
   * Daniel García Pascual
