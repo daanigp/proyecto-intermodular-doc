@@ -7,5 +7,7 @@ Proyecto en el cuál pondremos en práctica los conocimientos sobre Markdown, cr
   * Github pages
   * Git
 
+📖 Documentación completa en [docs/index.md](docs/index.md)
+
 * ### Autores
   * Daniel García Pascual
