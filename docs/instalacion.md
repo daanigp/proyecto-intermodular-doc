@@ -26,7 +26,7 @@
 
 ### Variables de entorno
 Crear un archivo _.env_ con:
-PORT=3000  
-DATABASE_URL=sqlite.db
+PORT=**3000**  
+DATABASE_URL=**sqlite.db**
 
 [Volver](index.md)

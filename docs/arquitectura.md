@@ -13,9 +13,9 @@ La aplicación sigue una arquitectura cliente-servidor:
 * Backend gestiona la lógica y persistencia
 
 ### Tecnologías
-* Frontend: React
-* Backend: Node.js + Express
-* Base de datos: SQLite
+* Frontend: **React**
+* Backend: **Node.js** + **Express**
+* Base de datos: **SQLite**
 
 
 [Volver](index.md)

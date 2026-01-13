@@ -1,4 +1,4 @@
 title: "Proyecto Intermodular"
 description: "Documentación oficial del proyecto"
 
-remote_theme: jekyll-theme-architect
+theme: jekyll-theme-hacker

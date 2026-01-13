@@ -4,8 +4,8 @@
 ## Referencias
 
 ### Enlaces
-* https://nodejs.org
-* https://react.dev
+* [Node](https://nodejs.org)
+* [React](https://react.dev)
 
 ### APIs
 * API REST interna de TaskFlow
