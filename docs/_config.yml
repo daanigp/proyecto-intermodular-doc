@@ -1,6 +1,6 @@
 title: "Proyecto Intermodular"
 description: "Documentación oficial del proyecto"
 
-remote_theme: chrisrhymes/bulma-clean-theme 
+remote_theme: just-the-docs/just-the-docs
 plugins: 
   - jekyll-remote-theme
