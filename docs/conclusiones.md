@@ -19,6 +19,6 @@
 
 * Aumento de deportes.
 * Dificultad Extrema, en la que no hayan vidas, si fallas, pierdes.
-* En las preguntas, durante el juego, añadir un botón para reportar algún falo.
+* En las preguntas, durante el juego, añadir un botón para reportar algún fallo.
 
 [Volver](index.md)
