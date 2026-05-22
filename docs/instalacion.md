@@ -1,30 +1,22 @@
-# Proyecto Intermodular
-# Documentación Oficial
+# Proyecto Intermodular - La Cancha del Saber
 
-## Instalación
+## Documentación Oficial
 
-### Requisitos
-* Node.js >= 18
-* npm o yarn
-* Navegador web moderno
+### Instalación
 
-### Pasos de instalación
-1. Clonar el repositorio:
-   ```bash
-      git clone https://github.com/usuario/taskflow.git
-   ```
+#### Requisitos
 
-2. Instalar dependencias:
-   ```bash
-   npm install
-   ```
+* ~~Node.js >= 18~~
+* ~~npm o yarn~~
+* Navegador web
 
-3. Iniciar la aplicación:
-   ```bash
-   npm run dev
-   ```
+#### Pasos de instalación
 
-### Variables de entorno
+1. Abrir el navegador.
+2. Abrir la siguiente url: [LaCanchaDelSaber](URL)
+
+#### Variables de entorno
+
 Crear un archivo _.env_ con:
 PORT=**3000**  
 DATABASE_URL=**sqlite.db**

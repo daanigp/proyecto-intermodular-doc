@@ -1,7 +1,9 @@
-# Proyecto Intermodular
-# Documentación Oficial
+# Proyecto Intermodular - La Cancha del Saber
 
-## Índice
+## Documentación Oficial
+
+### Índice
+
 * [Introducción](introduccion.md)
 * [Instalación](instalacion.md)
 * [Uso](uso.md)

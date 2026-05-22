@@ -1,17 +1,18 @@
-# Proyecto Intermodular
-# Documentación Oficial
+# Proyecto Intermodular - La Cancha del Saber
 
-## Referencias
+## Documentación Oficial
 
-### Enlaces
+### Referencias
+
+#### Enlaces
+
 * [Node](https://nodejs.org)
 * [React](https://react.dev)
+* [PHP](https://www.php.net/manual/es/)
 
-### APIs
-* API REST interna de TaskFlow
+#### Documentación externa
 
-### Documentación externa
-* MDN Web Docs
-* Documentación oficial de Express
+* ~~MDN Web Docs~~
+* ~~Documentación oficial de Express~~
 
 [Volver](index.md)

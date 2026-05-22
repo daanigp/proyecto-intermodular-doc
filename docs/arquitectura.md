@@ -1,21 +1,24 @@
-# Proyecto Intermodular
-# Documentación Oficial
+# Proyecto Intermodular - La Cancha del Saber
 
-## Arquitectura
+## Documentación Oficial
 
+### Arquitectura
 
-### Diagrama
+#### Diagrama
+
 ![Arquitectura del sistema](img/arquitectura.png)
 
-### Explicación técnica
+#### Explicación técnica
+
 La aplicación sigue una arquitectura cliente-servidor:
-* Frontend consume una API REST
+
+* ~~Frontend consume una API REST~~
 * Backend gestiona la lógica y persistencia
 
-### Tecnologías
-* Frontend: **React**
-* Backend: **Node.js** + **Express**
-* Base de datos: **SQLite**
+#### Tecnologías
 
+* Frontend: **HTML** + **CSS**
+* Backend: **JavaScript** + **PHP**
+* Base de datos: **MySql**
 
 [Volver](index.md)

@@ -1,14 +1,19 @@
-# Proyecto Intermodular
-# Documentación Oficial
+# Proyecto Intermodular - La Cancha del Saber
 
-## Introducción
+## Documentación Oficial
 
-### Objetivo del proyecto
-El objetivo de TaskFlow es facilitar la organización de tareas diarias mediante una interfaz web intuitiva y accesible.
+### Introducción
 
-### Problema que resuelve
-Muchas personas gestionan sus tareas de forma desordenada (notas, papel, apps dispersas).  
-TaskFlow centraliza las tareas en un único sistema simple y accesible desde cualquier navegador.
+#### Objetivo del proyecto
 
+El objetivo de LaCanchaDelSaber es poder demostrar tu nivel de conocimientos acerca del fútbol, ya sea compitiendo con tus amigos o con gente de todas partes.
+
+Se trata de una aplicación web en la cual los usuarios registrados podrán jugar a un juego de preguntas sobre el fútbol.  
+
+Estas preguntas podrán ser sobre:  
+
+* Historia del fútbol.
+* Futbol internacional.
+* Ligas nacionales.
 
 [Volver](index.md)
