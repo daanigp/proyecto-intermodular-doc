@@ -1,0 +1,1 @@
+AÑADIR AL ".gitignore" un .env, y la ruta de las imganes de perfil
