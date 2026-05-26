@@ -92,7 +92,7 @@ Los iconos utilizan FontAwesome 7.0.1.
 * Imagens alojadas en: `app/static/img/profile`
 * Dimensiones en `perfil.php`: 150px x 150px
 * Dimensiones en `perfil_edit.php`: 80px x 80px
-* Dimensiones en `amigos.php`: 80px x 80px
+* Dimensiones en `amigos.php`: 60px x 60px
 
 ## 6. Responsive
 
