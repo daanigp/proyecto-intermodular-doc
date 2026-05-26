@@ -55,3 +55,12 @@ Esta página está en 3 distintas versiones:
 * **Juego en dificultad medio:"** Para este modo de juego, el sistema de puntuación se basa en que el jugador obtendrá 20 puntos por cada pregunta que acierte.
 
 * **Juego en dificultad difícil:** Para este modo de juego, el sistema de puntuación se basa en que el jugador obtendrá 30 puntos por cada pregunta que acierte.
+
+#### Panel
+
+Sólo los usuarios administradores serán capaces de ver esta página.  
+En esta página se verá un panel con todas las pregunas existentes en el juego, pudiendo filtrarlas por categoría y por dificultad.  
+En cada pregunta, tiene dos opciones, que són editar o borrar.  
+La de editar, le lleva al usuario administrador al formulario en el que podrá editar los valores de la pregunta.  
+La de borrar, llevará a una página "modo confirmación" para borrar la pregunta o rechazar el borrado si ha pulsado por error.
+También existe un botón para añadir nuevas preguntas.

@@ -10,28 +10,28 @@ Estos son los mockuos que se han hecho para la web, junto al resultado final.
 
 * _Mockup_
 
-![img](img/mockup_mobile)
+![img](../img/mockup_mobile.png)
 
 * _Original_
 
-![img](img/captura_mobile)
+![img](../img/index_mobile.png)
 
 ### 2. **Tablet**
 
 * _Mockup_
 
-![img](img/mockup_tablet)
+![img](../img/mockup_tablet.png)
 
 * _Original_
 
-![img](img/captura_tablet)
+![img](../img/index_tablet.png)
 
 ### 3. **Desktop**
 
 * _Mockup_
 
-![img](img/mockup_desktop)
+![img](../img/mockup_desktop.png)
 
 * _Original_
 
-![img](img/captura_desktop)
+![img](../img/index_desktop.png)

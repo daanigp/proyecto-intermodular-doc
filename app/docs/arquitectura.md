@@ -8,17 +8,29 @@
 
 ![Arquitectura del sistema](img/arquitectura.png)
 
-#### Explicación técnica
+#### Diagrama de base de datos
 
-La aplicación sigue una arquitectura cliente-servidor:
+![IMG](img/bbdd_diagrama.png);
 
-* ~~Frontend consume una API REST~~
-* Backend gestiona la lógica y persistencia
+| Tabla                   | Información                                   |
+|-------------------------|-----------------------------------------------|
+| `users`                 | Usuarios registrados                          |
+| `role_names`            | Roles disponibles: user, admin                |
+| `user_role`             | Relación many-to-many entre usuarios y roles  |
+| `categorías`            | Categorías de las preguntas                   |
+| `dificultades`          | Dificultades de las preguntas                 |
+| `preguntas`             | Preguntas del juego                           |
+| `partidas`              | Puntuaciones obtenidas en las partidas        |
+| `partida_respuestas`    | Respuestas obtendas en las partidas           |
+| `amistades`             | Amistades entre usuarios                      |
 
 #### Tecnologías
 
-* Frontend: **HTML** + **CSS**
-* Backend: **JavaScript** + **PHP**
-* Base de datos: **MySql**
+* Frontend: **HTML** + **CSS** + **jQuery/JavaScript**
+* Backend: **PHP**
+* Base de datos: **MySQL**
+* Entorno de desarrollo: **Contenedores Docker**
+* Despliegue de la aplicación: **AWS**
+* Documentación: **GitHub Pages**
 
 [Volver](index.md)

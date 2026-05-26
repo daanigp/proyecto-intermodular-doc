@@ -6,14 +6,12 @@
 
 #### Enlaces
 
-* [Node](https://nodejs.org)
-* [React](https://react.dev)
+* [AWS](https://aws.amazon.com/es/)
 * [PHP](https://www.php.net/manual/es/)
-* [PHP_PDF](link del pdf)
 
 #### Documentación externa
 
 * Documentación de aules
-* ~~Documentación oficial de Express~~
+* [W3schols](https://www.w3schools.com/)
 
 [Volver](index.md)

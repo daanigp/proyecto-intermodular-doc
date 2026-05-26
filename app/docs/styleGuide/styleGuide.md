@@ -20,7 +20,8 @@
 
 La aplicación web sigue la siguiente estructura:
 
-* **Header** -> se desplaza con el scroll de la página, por lo que no permanece fijo. `(templates/header.php)`
+* **Header** -> se desplaza con el scroll de la página, por lo que no permanece fijo.  
+                Está compuesto por el logo + el menú. `(templates/header.php)`
 * **Contenido** -> se adapta al flujo de la página y se desplaza de forma natural durante el scroll.
 * **Footer** -> se desplaza con el scroll de la página, por lo que no permanece fijo. `(templates/footer.php)`
 
@@ -28,36 +29,34 @@ La aplicación web sigue la siguiente estructura:
 
 La paleta se define mediante variables CSS en `:root`.
 
-| Variable                         |                    Uso                      |
-| -------------------------------- | ------------------------------------------- |
-| `--background-main`              | Fondo general                               |
-| `--background-cards`             | Fondo de cards                              |
-| `--background-card-game`         | Fondo de las tarjetas                       |
-| `--background-header-footer`     | Fondo en header y footer                    |
-| `--background-dropdown-menu`     | Fondo del menu desplegable                  |
-| `--background-dropdown-submenu`  | Fonde del submenu desplegable               |
-| `--background-btns`              | Fondo botones                               |
-| `--background-btns-hover`        | Fondo botones - hover                       |
-| `--background-btns-shadow`       | Sombra de botones                           |
-| `--menu-link`                    | Color de los links del menu                 |
-| `--color-header-footer`          | Color del texto de header y footer          |
-| `--color-error`                  | Color de los mensajes de error              |
-| `--color-error-back`             | Fondo de botones de error                   |
-| `--color-surface`                | Color del texto                             |
-| `--color-border`                 | Color de bordes                             |
-| `--color-dark`                   | Color negro/oscuro                          |
-| `--color-muted`                  | Color grisaceo, para texto "transparente"   |
-| `--color-accent`                 |                                             |
-| `--color-dark-soft`              |                                             |
-| `--color-res-correct`            | Color de la respuesta correcta              |
-| `--color-res-correct-back`       | Fondo de respuesta correcta                 |
-| `--color-res-correct-back-hover` | Fondo de respuesta correcta - hover         |
-| `--color-greenLight`             | Color de titulos                            |
-| `--color-greenLight-shadow`      | Sombra color verde                          |
-| `--color-greenLight-hover`       | Color verde - hover                         |
-| `--color-greenLight-dark`        | Color verde oscuro                          |
-| `--color-text`                   | Color del texto                             |
-| `--color-yellow`                 | Color btn exportar                          |
+| Variable                         | Uso                                                   |
+| -------------------------------- | ----------------------------------------------------- |
+| `--background-main`              | Fondo general                                         |
+| `--border-cards`                 | Norde de las tarjetas                                 |
+| `--background-cards`             | Fondo de cards                                        |
+| `--background-table-tr-hover:`   | Fondo de las filas de las tablas cuando se hace hover |
+| `--background-card-game`         | Fondo de las tarjetas                                 |
+| `--background-header-footer`     | Fondo en header y footer                              |
+| `--background-dropdown-menu`     | Fondo del menu desplegable                            |
+| `--background-dropdown-submenu`  | Fonde del submenu desplegable                         |
+| `--background-btns`              | Fondo botones                                         |
+| `--background-btns-hover`        | Fondo botones al hacer hover                          |
+| `--background-btns-shadow`       | Sombra de botones                                     |
+| `--background-inputs`            | Fondo de los inputs de los formularios                |
+| `--menu-link`                    | Color de los links del menu                           |
+| `--color-error`                  | Color de los mensajes de error                        |
+| `--color-error-back`             | Fondo de botones de error                             |
+| `--color-surface`                | Color del texto                                       |
+| `--color-muted`                  | Color grisaceo, para texto "transparente"             |
+| `--color-res-correct`            | Color de la respuesta correcta                        |
+| `--color-res-correct-back`       | Fondo de la respuesta correcta                        |
+| `--color-res-correct-back-hover` | Fondo de la respuesta correcta - hover                |
+| `--color-greenLight`             | Color de titulos                                      |
+| `--color-greenLight-shadow`      | Sombra color verde para botones cancelar              |
+| `--color-greenLight-hover`       | Color verde - hover para botones cancelar             |
+| `--color-greenLight-dark`        | Color verde oscuro para botones cancelar              |
+| `--color-text`                   | Color del texto                                       |
+| `--color-yellow`                 | Color btn exportar                                    |
 
 ## 3. Fuente
 

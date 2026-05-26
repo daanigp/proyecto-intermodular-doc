@@ -6,7 +6,7 @@
 
 #### Index
 
-![Index](img/index.png)  
+![Index](img/index_desktop.png)  
 En el índice podrás leer un poco de información acerca de la web.  
 También tendrás una explicación acerca de la jugabilidad, en la cual descubrirás el sistema de puntuación para las distintas dificultades, y a su vez el riesgo que conllevaría jugar en las distintas dificultades.
 
