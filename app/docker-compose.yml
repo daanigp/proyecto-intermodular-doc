@@ -5,9 +5,9 @@ services:
     container_name: lacanchadelsaber_php
     restart: unless-stopped
     volumes:
-      - ./src:/var/www/html
+      - ./src/public:/var/www/html
     ports:
-      - "8080:80"
+      - "80:80"
     depends_on:
       - mysql
     environment:
@@ -30,7 +30,8 @@ services:
       MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASS}
     volumes:
       - mysql_data:/var/lib/mysql
-      - ./docker/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./docker/mysql/init.sql:/docker-entrypoint-initdb.d/01_init.sql
+      - ./docker/mysql/preguntas.sql:/docker-entrypoint-initdb.d/02_preguntas.sql
     ports:
       - "3306:3306"
     networks:

@@ -6,11 +6,11 @@
 
 #### Diagrama
 
-![Arquitectura del sistema](img/arquitectura.png)
+![Arquitectura del sistema](imgs/arquitectura.png)
 
 #### Diagrama de base de datos
 
-![IMG](img/bbdd_diagrama.png);
+![IMG](imgs/bbdd_diagrama.png);
 
 | Tabla                   | Información                                   |
 |-------------------------|-----------------------------------------------|
