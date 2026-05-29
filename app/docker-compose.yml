@@ -6,6 +6,7 @@ services:
     restart: unless-stopped
     volumes:
       - ./src/public:/var/www/html
+      - ./src/static/img/profile:/var/www/html/static/img/profile
     ports:
       - "80:80"
     depends_on:
