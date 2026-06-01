@@ -1,0 +1,22 @@
+El juego consta de varias partes:
+* Tenemos la parte en la que se recogen las preguntas y respuestas de la BBDD.
+* Tenemos la parte que va mostrando una pregunta con sus 4 respuestas cada vez que se le da al botón de siguiente.
+* Tenemos la parte que comprueba que se haya pulsado un botón de respuesta y envía la información (via AJAX) a un PHP donde se comprueba si la respuesta pulsada es correcta.
+* Tenemos la parte que comprueba si se ha terminado la partida.
+* Otra parte que si la respuesta ha sido incorrecta, resta una vida.
+* Otra que si la respuesta ha sido correcta, suma los puntos pertinentes.
+* Otra que cuando se acaba la partida, sale un cuadro popUp en forma de resumen de la partida con estadísticas sobre ésta.
+(A su vez, cuando se acaba la partida, se elimina del servidor la sesión de juego).
+
+1º Sacamos los datos de las preguntas de la BBDD, dependiendo de la dificultad, sacaremos más fáciles, más de nivel medio o más difíciles. Las pasamos en formato JSON.
+También guardamos en Sesión las respuesas correctas a cada pregunta (idPregunta  + letraCorrecta).
+2º Se cargan las preguntas, y se muestra la primera.
+3º Cuando se haya contestado a la pregunta:
+    * Mediante AJAX, se evnía la respuesta al servidor (comprobar_respuesta.php).
+    * Se guarda en sesión la respuesta a esa pregunta y se envía si ha respondido de forma correcta o errónea mediante AJAX.
+        - Si la respuesta a la pregunta ha sido de manera exitosa, se actualizan los puntos (se suma 15, 30, 50) dependiendo la dificultad.
+        - Si ha sido errónea, aparece la animación de restar una vida, y se muestra la respuesta correcta.
+    * Cuando se ve el resultado, aparece el botón de siguiente pregunta, el cual, vuelve a hacer todo este proceso.
+4º En caso que el usuario llegue a 20 preguntas acertadas o se le acaben las vidas, se guardará el resultado tanto de las preguntas (para futuras estadísticas), como el resultado de la partida.
+    * Se elimina la sesión de la partida.
+5º Aparece un PopUp en el cual se muestran las estadísticas de la partida actual.
